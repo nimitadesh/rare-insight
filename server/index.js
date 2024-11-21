@@ -3,7 +3,7 @@ dotenv.config({ path: ".env" });
 
 const express = require("express");
 const app = express();
-const port = 3001;
+const port = process.env.PORT || 3001;
 const cors = require("cors");
 const cookieParser = require("cookie-parser");
 const mongoose = require("mongoose");
@@ -18,12 +18,12 @@ async function connectToDatabase() {
 
     console.log("Connected to the database");
 
-    app.use(
-      cors({
-        origin: "http://localhost:3000",
-        credentials: true,
-      })
-    );
+    // app.use(
+    //   cors({
+    //     origin: "http://localhost:3000",
+    //     credentials: true,
+    //   })
+    // );
     app.use(cookieParser());
     app.use(express.json());
 
@@ -31,7 +31,6 @@ async function connectToDatabase() {
 
     app.listen(port, () => {
       console.log(`Server is running on port ${port}`);
-      //require("./populate_db/NewsApi");
     });
   } catch (error) {
     console.error("Error connecting to MongoDB:", error);

@@ -3,12 +3,10 @@ import SearchBar from "./SearchBar";
 
 const rareDiseases = [
   "Multiple Sclerosis",
+  "Sickle Cell Disease",
   "Narcolepsy",
-  "Primary biliary cholangitis",
-  "Fabry disease",
-  "Cystic fibrosis",
-  "Duchenne muscular dystrophy (DMD)",
-  "Sickle cell disease"
+  "Hemophilia",
+  "Duchenne Muscular Dystrophy"
 ];
 
 export default function HomePage() {
