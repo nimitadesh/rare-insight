@@ -5,7 +5,7 @@ NOTE: Before cloning the repo, make sure to have the following installed/set up:
 3. Git CLI: https://docs.github.com/en/get-started/getting-started-with-git/set-up-git
 4. MongoDB Account: https://www.mongodb.com/
 
-If you run into any issues with the following steps, please feel free to reach out to Nimita Deshpande (nimitadesh) or Nirranjan Akilan (n2akilan458) on Discord to receive further assistance!
+If you run into any issues with the following steps, please feel free to reach out to Nimita Deshpande (nimitadesh0612@gmail.com) to receive further assistance!
 
 ## 1. Cloning the repo locally
 
@@ -13,7 +13,7 @@ If you run into any issues with the following steps, please feel free to reach o
 2. Enter the following command to clone the repo:
 
 ```
-  git clone https://github.com/nimitadesh/office-exercise-app
+  git clone https://github.com/nimitadesh/rare-insight
 ```
 
 3. Open the project in VS Code
