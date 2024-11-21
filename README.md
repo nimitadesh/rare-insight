@@ -1,3 +1,6 @@
+## RareReview: Purpose & Structure
+This project is a comprehensive system designed to aggregate and process articles about rare diseases, generate relevant tags and summaries using Google Gemini's generative AI, and provide an interactive frontend for users to search and filter articles. The backend, located in the server folder, includes scripts for fetching articles from the NewsAPI and CrossRef API, storing them in a database, and leveraging generative AI for tagging and summarization. The client folder contains the React and Tailwind-based frontend, which delivers an intuitive UI for exploring and filtering the processed articles. This setup enables efficient information retrieval and enhances accessibility to critical insights about rare diseases.
+
 NOTE: Before cloning the repo, make sure to have the following installed/set up:
 
 1. Visual Studio Code: https://code.visualstudio.com/
