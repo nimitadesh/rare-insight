@@ -26,8 +26,8 @@ If you run into any issues with the following steps, please feel free to reach o
 ## 2. Adding the .env file
 
 1. Add a blank .env file under the server folder
-2. Direct message either of us on Discord to get the .env credentials
-3. Copy-paste these credentials into the blank .env file you created in step 1 (NOTE: You may need to request access to the MongoDB database for your username before running the backend. Please reach out to either of us on Discord to request access!)
+2. Email me at nimitadesh0612@gmail.com to get the credentials
+3. Copy-paste these credentials into the blank .env file you created in step 1 (NOTE: You may need to request access to the MongoDB database for your username before running the backend. Please reach out to me to request access!)
 
 ## 3. Running the backend locally
 
